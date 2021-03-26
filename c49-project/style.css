@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+body{
+    overflow-x: hidden;
+}
+    ::-webkit-scrollbar {
+    display: none;
+  }
+::-moz-selection {
+    color: rgb(255, 255, 255);
+    background: rgb(164, 255, 46);
+  }
+  
+  ::selection {
+    color: rgb(255, 255, 255);
+    background: rgb(164, 255, 46);
+  }
+#titl{
+    background: linear-gradient(to left,rgb(0, 183, 255),rgb(255, 0, 140));
+    box-sizing: border-box;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    user-select: none;
+}
+body{
+    background-color: rgb(20, 20, 20);
+}
+#strlnk{
+    text-decoration: none;
+    font-family: poppins;
+    color:rgb(0, 165, 165);
+    transition: all 400ms ease-in-out;
+}
+#strlnk:hover{
+    font-family: poppins;
+    color:greenyellow;
+    font-size: 30pt;
+}
+#buttfd{
+    flex: 1;
+  border-radius: 5px;
+  z-index: -9;
+}
+.flex-cont {
+    display: flex;
+    padding-top: 115px;
+}
+#butterf,#turt,#humm{
+    opacity: 0;
+    display: none;
+    pointer-events: none;
+    z-index: -999;
+}
+.desc2{
+    color:white;
+    font-family: 'open sans';
+    font-size: 12pt;
+    z-index: 1;
+    pointer-events: none;
+    opacity: 1;
+    position: absolute;
+    transform: translateY(-100px) translateX(-50%);
+    margin-left: 50%;
+    opacity: 0;
+}
+.desc1{
+    color:white;
+    font-family: 'open sans';
+    font-size: 12pt;
+    z-index: 1;
+    pointer-events: none;
+    opacity: 1;
+    position: absolute;
+    transform: translateY(-135px) translateX(-50%);
+    margin-left: 17%;
+    opacity: 0;
+}
+.desc3{
+    color:white;
+    font-family: 'open sans';
+    font-size: 12pt;
+    width: 500px;
+    z-index: 1;
+    pointer-events: none;
+    opacity: 1;
+    position: absolute;
+    transform: translateY(-120px) translateX(-50%);
+    margin-left: 83%;
+    opacity: 0;
+}
+#idd1{
+    transition: all 0.6s ease-in-out;
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+}
+#idd1:hover{
+    filter: blur(10px) saturate(50%) brightness(50%);
+    border-radius: 10%;
+    cursor: pointer;
+}
+#idd2{
+    transition: all 0.6s ease-in-out;
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+}
+#idd2:hover{
+    filter: blur(10px) saturate(50%) brightness(50%);
+    border-radius: 10%;
+    cursor: pointer;
+}
+#idd3{
+    transition: all 0.6s ease-in-out;
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+}
+#idd3:hover{
+    filter: blur(10px) saturate(50%) brightness(50%);
+    border-radius: 10%;
+    cursor: pointer;
+}
